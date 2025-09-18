@@ -27,3 +27,31 @@ Using React Native, implement the functionality behind a simple OTP (One-Time Pa
 ### Why This Works Well
 - The logic is simple and scalable to 6-digit or variable-length OTPs.
 - UI and verification logic are separated, making it easy to plug into a real backend for sending or validating codes later.
+
+---
+
+## How to Run the App
+
+### 1. Clone repo
+```shell
+git clone <repo-url>
+cd OTPVerification
+```
+
+### 2. Install Node version
+If you use **nvm**, install the required Node version (for example 18.x):
+
+### 3. Install dependencies
+Install all project dependencies: 
+```shell
+npm install
+```
+
+### 4. Start the development server
+Run the Expo development server:
+```shell
+npm start
+```
+
+
+
